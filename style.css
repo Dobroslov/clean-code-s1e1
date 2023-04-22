@@ -23,6 +23,7 @@ button {
   outline: none;
 }
 
+/* Header */
 .header {
   width: 500px;
   margin: 0 auto;
@@ -149,7 +150,7 @@ li > * {
   transition: transform 200ms ease-in;
 }
 
-.button__delete__img:hover {
+.button__delete:hover .button__delete__img {
   transform: rotateZ(0);
 }
 
